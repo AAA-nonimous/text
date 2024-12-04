@@ -127,3 +127,13 @@ body {
 
 
 
+
+
+
+
+video {
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  max-width: 100%;
+}
