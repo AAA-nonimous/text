@@ -48,8 +48,7 @@ h1 {
 /* Estilos gerais */
 body {
   font-family: Arial, sans-serif;
-  background: url('aaa.jpeg') no-repeat center center fixed; /* Caminho da imagem */
-  background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+  background: url('aaa.jpeg');
   margin: 0;
   padding: 0;
   display: flex;
