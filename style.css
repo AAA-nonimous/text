@@ -83,7 +83,7 @@ body {
 }
 
 .accordion-header {
-  /*display: block;*/
+  display: block;
   background-color: #007BFF;
   color: #fff;
   padding: 15px 20px;
@@ -184,4 +184,14 @@ video {
   gap: 20px; /* Adiciona um espaço entre os acordeões */
   align-items: center; /* Centraliza os acordeões horizontalmente */
   width: 100%; /* Ajusta ao tamanho do contêiner */
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column; /* Empilha os elementos verticalmente */
+  gap: 20px; /* Adiciona espaço entre as divs */
+  align-items: center; /* Centraliza horizontalmente */
+  width: 100%; /* Garante que o contêiner ocupe toda a largura */
+  padding: 20px; /* Adiciona espaçamento interno ao contêiner */
+  box-sizing: border-box; /* Inclui padding no cálculo de largura total */
 }
