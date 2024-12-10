@@ -47,7 +47,7 @@ document.getElementById('role-form').addEventListener('submit', function (event)
   
   if (selectedOption && selectedOption.value === 'no') {
     event.preventDefault();
-    alert('Não dá para marcar não!');
+    alert('Não dá para marcar não, somente o sim!');
   } else if (selectedOption && selectedOption.value === 'yes') {
     alert('Eba! Vamos rolezar juntos!');
   }
