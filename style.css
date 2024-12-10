@@ -176,3 +176,12 @@ video {
 .question-container button:hover {
   background: white;
 }
+
+
+.accordion-container {
+  display: flex;
+  flex-direction: column; /* Empilha os acordeões verticalmente */
+  gap: 20px; /* Adiciona um espaço entre os acordeões */
+  align-items: center; /* Centraliza os acordeões horizontalmente */
+  width: 100%; /* Ajusta ao tamanho do contêiner */
+}
