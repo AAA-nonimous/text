@@ -83,7 +83,7 @@ body {
 }
 
 .accordion-header {
-  display: block;
+  /*display: block;*/
   background-color: #007BFF;
   color: #fff;
   padding: 15px 20px;
