@@ -42,6 +42,18 @@ accordionItems.forEach(item => {
 
 
 
+document.getElementById('role-form').addEventListener('submit', function (event) {
+  const selectedOption = document.querySelector('input[name="role"]:checked');
+  
+  if (selectedOption && selectedOption.value === 'no') {
+    event.preventDefault();
+    alert('Não dá para marcar não!');
+  } else if (selectedOption && selectedOption.value === 'yes') {
+    alert('Eba! Vamos rolezar juntos!');
+  }
+});
+
+
 
 
 
