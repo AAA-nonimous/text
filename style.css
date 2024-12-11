@@ -80,3 +80,46 @@ body {
     font-size: 14px; /* Texto mais compacto em telas pequenas */
   }
 }
+
+
+/* Formulário */
+.question-container {
+  width: 100%;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  color: white;
+}
+
+.question-container p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.question-container label {
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.question-container input[type="radio"] {
+  margin-right: 5px;
+}
+
+.question-container button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.question-container button:hover {
+  background-color: #0056b3;
+}
