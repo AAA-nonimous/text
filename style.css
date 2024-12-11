@@ -9,6 +9,7 @@ body {
   align-items: center;
   min-height: 100vh;
   flex-direction: column; /* Garante layout vertical em telas pequenas */
+  color: white;
 }
 
 /* Contêiner principal */
