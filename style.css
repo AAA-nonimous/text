@@ -126,3 +126,11 @@ body {
 .question-container button:hover {
   background-color: #0056b3;
 }
+
+.accordion-content img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
